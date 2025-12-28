@@ -1,0 +1,81 @@
+2025-12-27 23:26:50,545 GET /categories/
+2025-12-27 23:26:50,549 BEGIN (implicit)
+2025-12-27 23:26:50,551 SELECT [ProductCategory].[CategoryID] AS [ProductCategory_CategoryID], [ProductCategory].[Name] AS [ProductCategory_Name] 
+FROM [ProductCategory]
+2025-12-27 23:26:50,552 [generated in 0.00055s] ()
+2025-12-27 23:26:50,576 ROLLBACK
+2025-12-27 23:31:08,923 GET /categories/
+2025-12-27 23:31:08,958 BEGIN (implicit)
+2025-12-27 23:31:08,961 SELECT [ProductCategory].[CategoryID] AS [ProductCategory_CategoryID], [ProductCategory].[Name] AS [ProductCategory_Name] 
+FROM [ProductCategory]
+2025-12-27 23:31:08,962 [generated in 0.00083s] ()
+2025-12-27 23:31:08,971 ROLLBACK
+2025-12-27 23:34:14,353 GET /categories/
+2025-12-27 23:34:14,381 BEGIN (implicit)
+2025-12-27 23:34:14,383 SELECT [ProductCategory].[CategoryID] AS [ProductCategory_CategoryID], [ProductCategory].[Name] AS [ProductCategory_Name] 
+FROM [ProductCategory]
+2025-12-27 23:34:14,383 [generated in 0.00041s] ()
+2025-12-27 23:34:14,402 ROLLBACK
+2025-12-27 23:34:52,820 GET /categories/
+2025-12-27 23:34:52,820 BEGIN (implicit)
+2025-12-27 23:34:52,821 SELECT [ProductCategory].[CategoryID] AS [ProductCategory_CategoryID], [ProductCategory].[Name] AS [ProductCategory_Name] 
+FROM [ProductCategory]
+2025-12-27 23:34:52,822 [cached since 38.43s ago] ()
+2025-12-27 23:34:52,827 ROLLBACK
+2025-12-28 02:14:58,124 BEGIN (implicit)
+2025-12-28 02:14:58,146 SELECT [Store].[StoreID] AS [Store_StoreID], [Store].[Name] AS [Store_Name], [Store].[Address] AS [Store_Address] 
+FROM [Store]
+2025-12-28 02:14:58,147 [generated in 0.00864s] ()
+2025-12-28 02:14:58,263 ROLLBACK
+2025-12-28 02:15:41,815 BEGIN (implicit)
+2025-12-28 02:15:41,837 INSERT INTO [Store] ([Name], [Address]) OUTPUT inserted.[StoreID] VALUES (?, ?)
+2025-12-28 02:15:41,837 [generated in 0.00121s] ('123', '123')
+2025-12-28 02:15:41,885 COMMIT
+2025-12-28 02:15:41,889 BEGIN (implicit)
+2025-12-28 02:15:41,892 SELECT [Store].[StoreID], [Store].[Name], [Store].[Address] 
+FROM [Store] 
+WHERE [Store].[StoreID] = ?
+2025-12-28 02:15:41,892 [generated in 0.00076s] (3,)
+2025-12-28 02:15:41,904 ROLLBACK
+2025-12-28 02:15:57,232 BEGIN (implicit)
+2025-12-28 02:15:57,234 SELECT [Store].[StoreID] AS [Store_StoreID], [Store].[Name] AS [Store_Name], [Store].[Address] AS [Store_Address] 
+FROM [Store] 
+WHERE [Store].[StoreID] = ?
+2025-12-28 02:15:57,234 [generated in 0.00052s] (3,)
+2025-12-28 02:15:57,249 ROLLBACK
+2025-12-28 02:17:09,027 BEGIN (implicit)
+2025-12-28 02:17:09,029 SELECT [Store].[StoreID] AS [Store_StoreID], [Store].[Name] AS [Store_Name], [Store].[Address] AS [Store_Address] 
+FROM [Store] 
+WHERE [Store].[StoreID] = ?
+2025-12-28 02:17:09,030 [cached since 71.8s ago] (3,)
+2025-12-28 02:17:09,051 UPDATE [Store] SET [Name]=?, [Address]=? WHERE [Store].[StoreID] = ?
+2025-12-28 02:17:09,051 [generated in 0.00066s] ('321', '321', 3)
+2025-12-28 02:17:09,064 COMMIT
+2025-12-28 02:17:09,068 BEGIN (implicit)
+2025-12-28 02:17:09,069 SELECT [Store].[StoreID] AS [Store_StoreID], [Store].[Name] AS [Store_Name], [Store].[Address] AS [Store_Address] 
+FROM [Store] 
+WHERE [Store].[StoreID] = ?
+2025-12-28 02:17:09,070 [generated in 0.00041s] (3,)
+2025-12-28 02:17:09,073 ROLLBACK
+2025-12-28 03:43:13,684 GET /categories/
+2025-12-28 03:43:13,715 BEGIN (implicit)
+2025-12-28 03:43:13,716 SELECT [ProductCategory].[CategoryID] AS [ProductCategory_CategoryID], [ProductCategory].[Name] AS [ProductCategory_Name] 
+FROM [ProductCategory]
+2025-12-28 03:43:13,716 [generated in 0.00038s] ()
+2025-12-28 03:43:13,739 ROLLBACK
+2025-12-28 03:44:02,135 BEGIN (implicit)
+2025-12-28 03:44:02,138 INSERT INTO [Product] ([Name], [Price], [CategoryID]) OUTPUT inserted.[ProductID] VALUES (?, ?, ?)
+2025-12-28 03:44:02,138 [generated in 0.00062s] ('POCO M6 PRO', 21000.0, 1)
+2025-12-28 03:44:02,176 COMMIT
+2025-12-28 03:44:02,178 BEGIN (implicit)
+2025-12-28 03:44:02,179 SELECT [Product].[ProductID], [Product].[Name], [Product].[Price], [Product].[CategoryID] 
+FROM [Product] 
+WHERE [Product].[ProductID] = ?
+2025-12-28 03:44:02,179 [generated in 0.00035s] (7,)
+2025-12-28 03:44:02,186 ROLLBACK
+2025-12-28 03:49:45,248 BEGIN (implicit)
+2025-12-28 03:49:45,250 SELECT [Product].[ProductID] AS [Product_ProductID], [Product].[Name] AS [Product_Name], [Product].[Price] AS [Product_Price], [Product].[CategoryID] AS [Product_CategoryID] 
+FROM [Product] 
+WHERE [Product].[ProductID] = ?
+2025-12-28 03:49:45,250 [generated in 0.00056s] (7,)
+2025-12-28 03:49:45,256 ROLLBACK

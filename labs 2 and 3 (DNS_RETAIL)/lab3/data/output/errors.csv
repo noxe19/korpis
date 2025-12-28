@@ -1,0 +1,7 @@
+row,error
+3,product_name пустой
+4,Цена некорректна
+5,could not convert string to float: 'abc'
+6,product_name пустой
+7,store_name пустой
+8,Количество отрицательное

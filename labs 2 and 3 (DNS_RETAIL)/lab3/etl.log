@@ -1,0 +1,79 @@
+2025-12-28 20:00:33,188 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:00:33,212 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:00:33,212 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 20:01:29,882 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:01:29,887 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:01:29,887 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 20:02:38,430 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:02:38,434 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:02:38,434 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 20:03:37,071 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:03:37,076 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:03:37,077 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 20:08:08,881 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:08:08,885 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:08:08,885 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 20:52:34,768 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 20:52:34,784 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 20:52:34,784 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-28 21:29:56,024 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-28 21:29:56,036 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-28 21:29:56,036 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:53:38,570 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:53:38,601 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:53:38,601 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:55:16,162 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:55:16,167 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:55:16,167 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:55:35,276 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:55:35,281 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:55:35,282 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:56:41,556 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:56:41,561 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:56:41,561 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:57:19,608 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:57:19,612 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:57:19,612 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:57:54,114 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:57:54,120 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:57:54,121 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:59:09,037 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:59:09,045 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:59:09,046 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 02:59:51,629 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 02:59:51,634 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 02:59:51,634 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:04:38,409 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:04:38,433 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:04:38,433 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:05:33,670 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:05:33,674 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:05:33,674 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:07:15,003 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:07:15,030 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:07:15,030 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:24:03,572 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:24:03,595 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:24:03,596 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:28:42,335 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:28:42,339 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:28:42,339 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:29:34,263 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:29:34,268 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:29:34,268 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:30:45,309 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:30:45,314 ERROR Transform error (row 3): Цена должна быть положительной
+2025-12-29 03:30:45,315 ERROR Transform error (row 4): could not convert string to float: 'abc'
+2025-12-29 03:33:28,893 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:34:06,299 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:35:20,743 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:35:20,751 ERROR Transform error (row 3): cannot convert float NaN to integer
+2025-12-29 03:35:20,751 ERROR Transform error (row 4): Цена должна быть положительной
+2025-12-29 03:35:20,751 ERROR Transform error (row 5): could not convert string to float: 'abc'
+2025-12-29 03:38:00,915 INFO Extract: чтение файла data/input/products_import.csv
+2025-12-29 03:38:00,942 ERROR Transform error (row 3): product_name пустой
+2025-12-29 03:38:00,942 ERROR Transform error (row 4): Цена некорректна
+2025-12-29 03:38:00,942 ERROR Transform error (row 5): could not convert string to float: 'abc'
+2025-12-29 03:38:00,942 ERROR Transform error (row 6): product_name пустой
+2025-12-29 03:38:00,942 ERROR Transform error (row 7): store_name пустой
+2025-12-29 03:38:00,942 ERROR Transform error (row 8): Количество отрицательное
